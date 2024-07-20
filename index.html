@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://google-translate113.p.rapidapi.com/api/v1/translator/text; script-src 'self' ; img-src https://*; script-src-elem *">
+    <title>Language Analyser</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <div id="content" class="box">
+      <div id="leftSide">
+        <div id="songSection">
+          <h1 id="test">Song</h1>
+          <img id="songIMG" >
+          <br>
+          <label for="songURL">URL:</label>
+          <input type="text" id="songURL" name="songURL">
+        </div>
+
+        <div id="wordInfo">
+          <h1 id="word">Word: </h1>
+          <h3 id="wordDesc"></h3>
+        </div>
+      </div>
+
+      <div id="chartWrapper">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="node_modules/chartjs-plugin-zoom/dist/chartjs-plugin-zoom.min.js"></script>
+
+        <div id="chartAreaWrapper">
+          <canvas id="songGraph" height="70%" width="100%" ></canvas> 
+        </div>
+      </div>
+
+      
+
+    </div>
+
+
+
+    <footer>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="./preload.js"></script>
+  </body>
+</html>

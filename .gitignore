@@ -1,0 +1,16 @@
+lyricGenerator.py
+lyrics.txt
+__pycache__
+pyvenv.cfg
+share
+bin
+include
+lib
+lib64
+node_modules
+package.json
+spotifyStuff
+translate.py
+translateWord.js
+translateWord.py
+
