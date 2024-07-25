@@ -1,0 +1,113 @@
+1 : 1
+2 : 2
+akių : eyes
+also : also
+aplink : around
+apsupty : surround
+ar : or
+atsisukom : turned away
+audringas : stormy
+aukštai : high up
+aš : i
+bet : but
+bėgi : run
+contributordeginu : I'm a contributor
+dalių : parts
+daliųembed : partsembed
+dangum : to the sky
+dar : yet
+deginu : i burn
+dingtų : would disappear
+eeh : eh
+ei : hey
+gabalus : pieces
+gal : maybe
+galiu : I can
+galėtum : you could
+garso : sound
+gaučiau : i would get
+giedru : clear
+greičiu : speed
+gyvenimas : life
+gėrimas : a drink
+ieškau : looking for
+ir : and
+iš : from
+ištempčiau : I would stretch
+jau : already
+jaučiu : i feel
+kad : that
+kai : when
+kalnų : mountains
+kartų : together
+kiek : how much
+kitaip : otherwise
+klastingas : insidious
+klausai : you are listening
+kuriu : I am creating
+kylam : we rise
+ką : what
+laiko : time
+leidžiuos : will allow
+lyg : like
+lėtą : slow
+mane : me
+manęs : me
+mažų : small ones
+mes : we
+might : might
+minioje : in the crowd
+mūsų : our
+nebeskambint : no more calls
+nemiegi : don't sleep
+nemokam : we don't pay
+nerimas : anxiety
+nuo : from
+o : oh
+pajusti : to feel
+palikom : we left
+pas : at
+pasaulis : the world
+pasaulį : the world
+pirmo : the first
+planetų : planets
+plėšau : I'm robbing
+po : after
+prarasti : to lose
+prašei : please
+ragelis : handset
+renku : I collect
+rinkom : we collected
+saiką : in moderation
+save : yourself
+savo : own
+sekundę : a second
+skęstu : I'm drowning
+staiga : suddenly
+su : with
+sukas : spin
+suskambo : rang
+taip : yes
+takeo : takeo
+taveee : you
+tavim : to you
+tavo : yours
+tu : you
+turbūt : probably
+ugnyje : in the fire
+virš : up
+visam : for everything
+visas : the whole
+viskas : that's all
+viską : everything
+vėl : again
+vėlu : it's late
+you : you
+į : to
+šiąnakt : tonight
+šokam : let's dance
+šokį : dance
+šukes : combs
+šukių : shards
+žemyn : down
+žinok : know
