@@ -1,35 +1,35 @@
-#** Intro**
+# ** Intro**
 Hey! This is an application made with electron, made for learning languages from songs. You can input the name of a song you'd like to learn, which will then search on Genius for the lyrics. A frequency graph will be made from the lyrics, where you can hover over the words to see translations.
 
 It will also hopefully be able to turn these into Anki graphs (done, but not in the GUI) that you can quiz yourself on.
 
-#** File Structure**
+# ** File Structure**
 
 **npm start**
 
-_-> main.js
+_-> main.js_
 
--> loads index.html      -> controls shortcuts
+_-> loads index.html      -> controls shortcuts_
 
--> loads index.js 
+_-> loads index.js _
 
--> uses songInfo.json_
+_-> uses songInfo.json_
 
 
 **lyricAnalyser.py:**
 
-_-> opens lyrics.txt
+_-> opens lyrics.txt_
 
--> cleans punctuation
+_-> cleans punctuation_
 
--> counts words
+_-> counts words_
 
--> imports from translateWord
+_-> imports from translateWord_
 
--> writes "songGraph.json" with this data_
+_-> writes "songGraph.json" with this data_
 
 **songToAnki**
 
-_-> uses songGraph.json
+_-> uses songGraph.json_
 
--> makes anki flashcards_
+_-> makes anki flashcards_
