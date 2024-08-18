@@ -17,12 +17,19 @@ npm start
 
 
 lyricAnalyser.py:
+
 -> opens lyrics.txt
+
 -> cleans punctuation
+
 -> counts words
+
 -> imports from translateWord
+
 -> writes "songGraph.json" with this data
 
 songToAnki
+
 -> uses songGraph.json
+
 -> makes anki flashcards
