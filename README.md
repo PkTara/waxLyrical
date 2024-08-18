@@ -6,10 +6,15 @@ It will also hopefully be able to turn these into Anki graphs (done, but not in 
 # File Structure
 
 npm start
+
 -> main.js
+
 -> loads index.html      -> controls shortcuts
+
 -> loads index.js 
+
 -> uses songInfo.json
+
 
 lyricAnalyser.py:
 -> opens lyrics.txt
