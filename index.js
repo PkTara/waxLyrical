@@ -1,18 +1,24 @@
-fetch('./songInfo.json')
-    .then((response) => response.json())
-    .then((json) => {
-        document.getElementById("songIMG").src=json["songCoverLink"]
-        console.log()
-    });
+
 
 // Creating graph
 const ctx = document.getElementById("songGraph")
 
-fetch('./songGraph.json')
+var selected = "1"
+fetch('./songDatabase.json')
     .then((response) => response.json())
     .then((json) => {
-        var xValues = json["x"];
-        var yValues = json["y"];
+        json = json[selected]
+        
+
+        //Cover Link
+        document.getElementById("songIMG").src=json["songCoverLink"]
+        console.log()
+
+        //Graph
+        var graph = json["graph"]
+
+        var xValues = graph["words"];
+        var yValues = graph["frequency"];
         var barColors = ["red", "green","blue","orange","brown"];
 
         const chart = new Chart(ctx, {
@@ -37,7 +43,7 @@ fetch('./songGraph.json')
         const value = chart.data.datasets[firstPoint.datasetIndex].data[firstPoint.index];
 
         document.getElementById("word").innerHTML=label
-        document.getElementById("wordDesc").innerHTML = json["translatedX"][xValues.indexOf(label)]
+        document.getElementById("wordDesc").innerHTML = graph["translatedWords"][xValues.indexOf(label)]
     }
     
 }
